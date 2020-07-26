@@ -44,7 +44,7 @@ function Post ({ imageUrl, username, caption, avatar }) {
       <div className={classes.postHeader}>
         <Avatar
           className={classes.postHeaderAvatar}
-          alt={username}
+          alt={username?.toUpperCase()}
           src='avatar'
         />
         <h3 className={classes.postHeaderUsername}>{username}</h3>

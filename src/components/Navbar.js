@@ -73,6 +73,8 @@ const useStyles = makeStyles((theme) => ({
     background: 'white',
     height: '44px',
     borderTop: '1px solid rgba(219,219,219,1)',
+    borderRadius: 0,
+    zIndex: 9,
   },
   icons: {
     fontSize: '1.65rem',
@@ -212,8 +214,8 @@ function Navbar ({ user, currentView, setCurrentView }) {
         {user ? (
           <Button className={classes.buttons}>
             <Avatar
-              alt={user?.displayName}
-              src='/static/images/avatar/1.jpg'
+              alt={user?.displayName.toUpperCase()}
+              src='static'
               className={classes.avatar}
             />
           </Button>
