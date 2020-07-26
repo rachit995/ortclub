@@ -1,0 +1,4 @@
+.navBar__appBar {
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+}

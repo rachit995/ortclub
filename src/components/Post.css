@@ -1,0 +1,35 @@
+.post {
+  background: #fff;
+  max-width: 600px;
+  /* border: 1px solid lightgray; */
+  /* border-radius: 3px; */
+}
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid rgba(239,239,239,1);
+  border-bottom: 1px solid rgba(239,239,239,1);
+}
+
+.post__text {
+  font-weight: normal;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.post__avatar {
+  margin-right: 10px;
+  height: 32px !important;
+  width: 32px !important  ;
+}
+
+.post__username{
+  font-size: 14px;
+}
